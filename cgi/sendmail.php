@@ -1,4 +1,11 @@
 <?php
+/**
+ * @package     aboutme
+ *
+ * @copyright   Copyright (C) 2016 Christian Paffhausen. All rights reserved.
+ * @license     GNU General Public License version 3
+ */
+
     $name       = $_POST["name"];
     $mail       = $_POST["mail"];
     $message    = $_POST["message"];
