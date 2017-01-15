@@ -10,8 +10,8 @@
     $mail       = $_POST["mail"];
     $message    = $_POST["message"];
 
-    $to         = 'c.paffhausen@gmx.de';
-    $subject    = 'Mail from: ' . $name . ', by thepaffy.de';
+    $to         = 'mail@christian-paffhausen.de';
+    $subject    = 'Mail from: ' . $name . ', by christian-paffhausen.de';
     $message    = $_POST["message"];
     $headers    = 'From: ' . $mail . "\r\n" .
         'Reply-To: ' . $mail . "\r\n" .

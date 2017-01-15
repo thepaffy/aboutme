@@ -40,7 +40,7 @@ main {
     background-color: #F5F5F5;
     border: 1px solid #EEEEEE;
     padding: 20px;
-    width: 396px;
+    width: 415px;
     margin-top: 70px;
     margin-left: 25px;
 }
@@ -52,7 +52,7 @@ main {
 .aboutbox-name {
     margin: 0;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 44px;
 }
 
 .aboutbox-buttons {
@@ -90,6 +90,7 @@ main {
 
 .aboutbox-content > p {
     margin: 20px 0;
+    text-align: justify;
 }
 
 .aboutbox-button > a {
