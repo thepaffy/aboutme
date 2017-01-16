@@ -1,18 +1,43 @@
 <!DOCTYPE html>
-<html dir="ltr">
+<html dir="ltr" lang="de-de">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <title>Christian Paffhausen</title>
+        <title>Willkommen &#8211; Christian Paffhausen</title>
+        <meta name="description" content="Willkommen bei Christian Paffhausen">
+
+        <!-- Twitter Cards -->
+        <meta name="twitter:title" content="Willkommen">
+        <meta name="twitter:description" content="Willkommen bei Christian Paffhausen">
+        <meta name="twitter:site" content="@thepaffy">
+        <meta name="twitter:creator" content="@thepaffy">
+
+        <meta name="twitter:card" content="summary">
+
+        <!-- Open Graph -->
+        <meta property="og:locale" content="de_DE">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Willkommen">
+        <meta property="og:description" content="Willkommen bei Christian Paffhausen">
+        <meta property="og:url" content="https://christian-paffhausen.de/">
+        <meta property="og:site_name" content="Christian Paffhausen">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index">
         <meta name="author" content="Christian (@thepaffy) Paffhausen">
-        <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+        <link rel="canonical" href="https://christian-paffhausen.de/">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8">
-        <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+        <meta http-equiv="cleartype" content="on">
+
+        <!-- Address bar color -->
+        <meta name="theme-color" content="#F5F5F5">
+        <meta name="msapplication-navbutton-color" content="#F5F5F5">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#F5F5F5">
     </head>
     <body>
+        <img src="images/IMG_3927.JPG" alt="background image">
         <main>
             <div class="aboutbox">
                 <div class="aboutbox-head">
@@ -39,44 +64,13 @@
                         <li class="aboutbox-button"><a href="https://github.com/thepaffy" target="_blank"><i class="fa fa-github"></i>Github</a></li>
                         <li class="aboutbox-button"><a href="https://thepaffy.de"><i class="fa fa-newspaper-o"></i>Blog</a></li>
                         <li class="aboutbox-button"><a href="https://keybase.io/thepaffy" target="_blank"><i class="fa fa-key"></i>PGP</a></li>
-                        <li id="mailButton" class="aboutbox-button"><a href="javascript:void(0);"><i class="fa fa-envelope"></i>E-Mail</a></li>
+                        <li class="aboutbox-button"><a href="mailto:&#109;&#097;&#105;&#108;&#064;&#099;&#104;&#114;&#105;&#115;&#116;&#105;&#097;&#110;&#045;&#112;&#097;&#102;&#102;&#104;&#097;&#117;&#115;&#101;&#110;&#046;&#100;&#101;"><i class="fa fa-envelope"></i>E-Mail</a></li>
                     </ul>
                 </div>
             </div>
         </main>
-        <div id="mailWrapper" class="wrapper">
-            <h2><i class="fa fa-envelope"></i>E-Mail me</h2>
-            <h3 id="errorMailWrapper">Konnte E-Mail nicht senden!</h3>
-            <form>
-                <fieldset class="name">
-                    <label class="label" for="name">Name:</label>
-                    <input id="name" class="input" type="text" name="name" value="" maxlength="65">
-                    <p id="errorName" class="error"></p>
-                </fieldset>
-                <fieldset class="email">
-                    <label class="label" for="email">E-Mail Adresse:</label>
-                    <input id="email" class="input" type="text" name="name" value="" maxlength="254">
-                    <p id="errorEmail" class="error"></p>
-                </fieldset>
-                <fieldset class="message">
-                    <label class="label" for="message">Nachrichten:<span class="maxchars">[max. 1000 Zeichen]</span></label>
-                    <textarea id="message" class="input" name="message" ></textarea>
-                    <p id="errorMessage" class="error"></p>
-                </fieldset>
-                <p class="disclaimer">Der Empfänger dieser Nachricht, kann Ihnen direkt über Ihre E-Mail Adresse antworten.</p>
-                <fieldset>
-                    <label class="label" for="captcha">Captcha:</label>
-                    <p id="captchaFunction">3 + 5 = ?</p>
-                    <input id="captcha" class="input" type="text" name="captcha" value="" maxlength="3">
-                    <p id="errorCaptcha" class="error"></p>
-                </fieldset>
-                <fieldset class="buttons">
-                    <button id="cancelButton" type="button"><i class="fa fa-ban"></i>Abbrechen</button>
-                    <button id="sendButton" type="button"><i class="fa fa-paper-plane"></i>Senden</button>
-                </fieldset>
-            </form>
+        <div class="fork">
+            <p>Fork me at <a href="https://github.com/thepaffy/aboutme/"><i class="fa fa-github"></i>Github</a></p>
         </div>
-        <div class="overlay"></div>
-        <h3 id="successMail">I've got mail :-)</div>
     </body>
 </html>

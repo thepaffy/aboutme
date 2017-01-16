@@ -2,5 +2,4 @@ User-agent: *
 Disallow: /images/
 Disallow: /css/
 Disallow: /js/
-Disallow: /font-awesome-4.5.0/
-Disallow: /cgi/
+Disallow: /font-awesome/
