@@ -1,2 +1,2 @@
-**About me:**\n
+**About me:**  
 A small js less self presentation page.
