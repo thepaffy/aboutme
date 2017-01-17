@@ -1,2 +1,2 @@
-**About me:**
-A planned, but never realised self presentation page.
+**About me:**\n
+A small js less self presentation page.
