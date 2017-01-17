@@ -1,2 +1,2 @@
 **About me:**  
-A small js less self presentation page.
+A small self presentation site. Only written in HTML5, CSS3 and with font awesome. 
